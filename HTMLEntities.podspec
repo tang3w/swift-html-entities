@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HTMLEntities"
-  s.version      = "3.0.13"
+  s.version      = "3.0.14"
   s.summary      = "HTML5 spec-compliant character encoder/decoder for Swift"
 
   # This description is used to generate tags and improve search results.
@@ -71,10 +71,10 @@ In addition, `HTMLEntities` can unescape encoded HTML text that contains decimal
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
-  # s.osx.deployment_target = "10.7"
-  # s.watchos.deployment_target = "2.0"
-  # s.tvos.deployment_target = "9.0"
+  s.ios.deployment_target = '11.0'
+  s.osx.deployment_target = '10.12'
+  s.tvos.deployment_target = '11.0'
+  s.watchos.deployment_target = '3.0'
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
